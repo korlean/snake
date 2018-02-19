@@ -15,6 +15,17 @@ namespace snake
 
             Point p2 = new Point(4, 5, '#');
             p2.Draw();
+
+            List<int> numList = new List<int>();
+            numList.Add( 0 );
+            numList.Add( 2 );
+            numList.Add( 4 );
+
+            int x = numList[0];
+            int y = numList[1];
+            int z = numList[2];
+
+            Console.WriteLine("\n" + x + " " + y + " " + z);
             
             Console.ReadLine();
         }
